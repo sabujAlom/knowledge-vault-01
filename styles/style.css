@@ -1,0 +1,314 @@
+/* google inter css font link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+
+/* -----------shared------- */
+.primary-btn{
+    background: rgb(36, 131, 75);
+    padding: 12px 16px 12px 16px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.primary-btn:hover {
+  background: #049e3d;
+}
+
+.btn .primary-btn img{
+    height: 12px;
+    width: 15px;
+}
+.primary-btn2{
+    background-color: transparent;
+    border: .5px solid black;
+    padding: 12px 16px 12px 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-left: 20px;
+}
+.primary-btn2:hover{
+    background-color: #b2cfbd;
+    color: #049e3d;
+}
+
+/* -----------main--------- */
+main{
+    margin-bottom: 50px;
+}
+.header{
+    margin: 16px 100px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container .nav-logo img{
+    width: 110px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.nav-container .menu a{
+    text-decoration: none;
+    margin-right: 32px;
+    font-family: "Inter";
+    font-size: 16px;
+
+}
+/* ......hero-section...... */
+.hero-container{
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-container .hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.hero-container .hero-content .str-think{
+   font-family: Inter;
+   font-size: 72px;
+   font-weight: 700; 
+   text-transform: capitalize;
+   color: #FFFFFF;
+
+}
+.hero-container .hero-content .not-taking{
+   font-family: Inter;
+   font-size: 72px;
+   font-weight: 700; 
+   text-transform: capitalize;
+   color: #30B868;  
+}
+.hero-container .hero-content p{
+   color: rgba(255, 255, 255, 1);
+   font-family: Inter;
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center; 
+   max-width: 640px;
+   line-height:32px;
+   margin-bottom: 26px;
+}
+.hero-container .hero-content h3{
+padding: 8px 12px 8px 12px;
+color: #0bd15d;
+border: .5px solid black;
+border-radius: 1000px;
+background: rgba(255, 255, 255, 1);
+font-family: "Inter";
+}
+
+/* ...........education container............. */
+.education-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 44px auto;
+    max-width: 80%;
+}
+.education-container .education-content{
+    
+
+}
+.education-container .education-content h2{
+    
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+}
+.education-container .education-content p{
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--#627382, rgba(98, 115, 130, 1));
+
+
+}
+.education-container .card-session{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-height: 300px;
+    max-width: 322px;
+    height: 280px;
+    width: 300px;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 6px 2px rgba(2, 4, 4, 0.856);
+    background:#0068cab0;
+
+
+}
+.education-container .card-session p{
+    max-height: 40px;
+    max-width: 260px;
+    text-align: center;
+    
+
+}
+.card{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+    max-width: 90%;
+    
+
+}
+.education-container .card-session:hover{
+ background:#0068caf3;
+}
+
+/* ...........second-brain............ */
+.second-brain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    max-width: 90%;
+    margin:50px 110px;
+    
+
+
+
+}
+.second-brain-contain h6{
+    color: var(--#30B868, rgba(70, 145, 101, 1));
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    text-transform: uppercase;
+    
+}
+.second-brain-contain h1{
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    font-family: Inter;
+    text-align: left;
+    text-transform: capitalize;
+}
+.second-brain-contain p{
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    max-width: 80%;
+    height: 60px;
+}
+
+.redy-to-think-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.redy-to-think-container h2{
+    color: var(--Style, rgba(0, 25, 49, 1));
+    font-family: Inter;
+    text-transform: capitalize;
+}
+.redy-to-think-container p{
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* ..........footer......... */
+.footer-container{
+    border: 1px solid red;
+    background-color: #001931;
+    width: 100%;
+    height: 350px;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85%;
+    
+    border: 5px solid red;
+
+}
+.soicial-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.soicial-container .socila-link img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.footer-logo{
+      width: 110px;
+      height: 50px;
+      cursor: pointer;
+}
+
+.footer-container h6{
+    margin: 20px auto;
+    color: whitesmoke;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+}
+.soicial-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.soicial-container h4{
+    color: whitesmoke;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+
+
+
+
+
+
